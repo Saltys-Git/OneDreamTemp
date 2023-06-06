@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'OneDream Bangladesh',
-  description: 'One Nation, One Marketplace',
+  title: 'OneDream Bangladesh - One Nation, One Marketplace',
+  description: 'OneDream Bangladesh - One Nation, One Marketplace',
 }
 
 export default function RootLayout({
