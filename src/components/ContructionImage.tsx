@@ -2,10 +2,14 @@
 import animatedPic from '../../public/data.json'
 import Lottie from "lottie-react";
 
-export default function ContructionImage() {
+async function sleep(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+export default async function ContructionImage() {
+    await sleep(500);
     return (
-        <div>
-            <Lottie animationData={animatedPic}/>
+        <div className="w-[200px] h-[150px]">
+                <Lottie animationData={animatedPic} />
         </div>
     )
 }
