@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="flex-col flex h-screen w-screen items-center">
         <Image src={logo} alt={"logo"} fill className="-z-40 h-screen w-screen object-cover sm:object-contain blur-xl backdrop-blur-xl"/>
-        <div className="relative">
+        <div className="mt-4 relative">
             <Suspense fallback={<LoadingShimmer/>}>
                 <ContructionImage/>
             </Suspense>
